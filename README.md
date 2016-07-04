@@ -31,8 +31,6 @@ function applySmartCrop(src, dest, width, height) {
     smartcrop.crop(body, {width: width, height: height}).then(function(result) {
       var crop = result.topCrop;
 
-      console.log('** Crop:', crop);
-
       lwip.open(body, 'jpg', function (err, image) {
         if (err) return console.error(err);
 
@@ -43,8 +41,6 @@ function applySmartCrop(src, dest, width, height) {
                 if (err) return console.error(err);
              });
       });
-    }).catch(function (err) {
-      console.log('** ERROR:', arguments);
     });
   });
 }
