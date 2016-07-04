@@ -1,7 +1,7 @@
 # smartcrop-lwip
 
 This is an adapter module for using [smartcrop.js](https://github.com/jwagner/smartcrop.js)
-with node.js using [gm](https://github.com/EyalAr/lwip) for image decoding.
+with node.js using [lwip](https://github.com/EyalAr/lwip) for image decoding.
 
 ## Installation
 ```
