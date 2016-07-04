@@ -1,0 +1,23 @@
+{
+  "name": "smartcrop-lwip",
+  "version": "1.0.0",
+  "description": "Node module for using smartcrop via lwip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoboucas/smartcrop-lwip.git"
+  },
+  "keywords": [
+    "smartcrop",
+    "lwip"
+  ],
+  "author": "Eduardo Bouças <mail@eduardoboucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoboucas/smartcrop-lwip/issues"
+  },
+  "homepage": "https://github.com/eduardoboucas/smartcrop-lwip#readme"
+}
