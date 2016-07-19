@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/eduardoboucas/smartcrop-lwip#readme",
   "dependencies": {
-    "lwip": "github:pajk/lwip",
-    "smartcrop": "github:eduardoboucas/smartcrop.js"
+    "lwip": "git+https://github.com/pajk/lwip",
+    "smartcrop": "git+https://github.com/eduardoboucas/smartcrop.js"
   }
 }
